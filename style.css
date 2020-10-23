@@ -1,4 +1,14 @@
-
+.shapka {
+	font-family: 'Underdog', cursive;
+	color: #00FF00; 
+	font-size: 60px
+}
+.contakti ul li{
+	display: inline
+}
+.content {
+	color: #CCFFCC
+}
 body{  
 	background-color: #000;
 	color: #339999; 
@@ -13,17 +23,3 @@ a:hover {
 a:visited {
 	color: #FF0066;
 }
-p {
-	color: yellow;
-	font-family: 'Underdog', cursive;
-}
-table{
-	color: #99CC99;
-	font-family: 'Press Start 2P', cursive;
-}
-ol{
-	color: #FF6600;
-	font-family: 'Ruslan Display', cursive;
-}
-
-
