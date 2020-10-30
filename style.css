@@ -1,13 +1,13 @@
 .shapka {
 	font-family: 'Underdog', cursive;
-	color: red; 
+	color: #33CC99; 
 	font-size: 60px;
 }
 .contakti ul li{
 	display: inline
 }
 .content {
-	color: red;
+	color: #33CC99;
 	font-family: 'Stalinist One', cursive;
 }
 body{  
@@ -20,7 +20,7 @@ a {
 	font-family: 'Lobster', cursive;
 }
 a:hover {
-	color: red;
+	color: #33CC99;
 }
 a:visited {
 	color: gold;
@@ -28,24 +28,24 @@ a:visited {
 .asortiment {
 	font-family: 'Stalinist One', cursive;
 	font-size: 35px;
-	color: red;
+	color: #33CC99;
 }
 .magazin {
 	font-family: 'Comfortaa', cursive;
-	color: #FF99CC;
+	color: #CCFFCC;
 }
 .socseti{
 	font-family: 'Forum', cursive;
 	font-size: 40px;
-	color: red;
+	color: #33CC99;
 }
 .podval{
-	color: red;
+	color: #33CC99;
 	font-size: 20px;
 	font-family: 'Forum', cursive;
 }
 hr {
-	color: red;
+	color: #33CC99;
 	font-size: 40px;
 }
 
