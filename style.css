@@ -1,7 +1,11 @@
 .shapka {
 	font-family: 'Underdog', cursive;
-	color: red; 
+	color: #666699; 
 	font-size: 60px;
+	display: flex;
+	flex-direction: center;
+	justify-content: center;
+	
 }
 .contakti ul li{
 	display: inline
