@@ -1,56 +1,39 @@
-.shapka {
-	font-family: 'Underdog', cursive;
-	color: #666699; 
-	font-size: 60px;
+body {
+	margin: 0;
+}
+.container_head {
 	display: flex;
-	flex-direction: center;
+	flex-direction: column;
+	background-image: url(img/big.jpg);
+	background-size: cover; 
+	height: 100vh;
+	color: #9999CC;
 	justify-content: center;
-	
+	align-items: center;
+	font-family: 'Kelly Slab', cursive;
 }
-.contakti ul li{
-	display: inline
+.big {
+	font-size: 100px
 }
-.content {
-	color: #6699CC;
-	font-family: 'Stalinist One', cursive;
+.small {
+	font-size: 50px;
 }
-body{  
-	
-	background-color: #000;
-	color: #6699CC;
+.container_text {
+	padding: 10px
 }
-a {
-	color: green;
-	font-family: 'Lobster', cursive;
+.container_photo {
+	display: flex;
+	justify-content: space-around;
 }
-a:hover {
-	color: #6699CC;
+.container_photo img {
+	margin: 0 5px
 }
-a:visited {
-	color: gold;
+.container_footer {
+	display: flex;
+	justify-content: space-around;
+	background-color: #000
+	padding: 20px 0
 }
-.asortiment {
-	font-family: 'Stalinist One', cursive;
-	font-size: 35px;
-	color: #6699CC;
+.container_footer a {
+	color: #fff;
 }
-.magazin {
-	font-family: 'Comfortaa', cursive;
-	color: #CCFFFF;
-}
-.socseti{
-	font-family: 'Forum', cursive;
-	font-size: 40px;
-	color: #6699CC;
-}
-.podval{
-	color: #6699CC;
-	font-size: 20px;
-	font-family: 'Forum', cursive;
-}
-hr {
-	color: blue;
-	font-size: 40px;
-}
-
-
