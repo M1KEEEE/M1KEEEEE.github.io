@@ -17,9 +17,9 @@ body {
 .big {
 	font-size: 100px;
 }
-.header_button_red {
+.header_button_blue {
 	color: white;
-	background-color: red;
+	background-color: #039;
 	padding: 5px 10px;
 	margin: 20px;
 }
