@@ -38,10 +38,21 @@ body {
 }
 .container_footer {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-around;
+	align-items: center;
 	background-color: #000
 	padding: 20px 0
 }
 .container_footer a {
 	color: black;
+}
+.container_footer_photo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.container_footer_photo img {
+    padding: 5px;
+
 }
