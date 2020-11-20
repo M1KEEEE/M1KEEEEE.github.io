@@ -57,11 +57,11 @@ body {
 .photo_container {
 	display: flex;
 	justify-content: space-around;
-	border: solid;
-	border-color: #99C;
 }
 .photo_container img {
-	margin: 0 5px
+	margin: 0 5px;
+	border: solid;
+	border-color: #99C;
 }
 .footer_container {
 	display: flex;
