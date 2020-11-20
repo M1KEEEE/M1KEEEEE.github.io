@@ -4,6 +4,7 @@ body {
 	color: white;
 	border: solid;
 	border-color: #99C;
+	font-size: 16px;
 }
 .head_container {
 	display: flex;
@@ -24,7 +25,7 @@ body {
 .menu_container a {
 	color: #99C;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 1.25em;
 }
 .menu_container ul {
     list-style-type: none;
@@ -34,7 +35,7 @@ body {
     padding: 10px;
 }
 .big {
-	font-size: 100px;
+	font-size: 6.25em;
 }
 .header_button_blue {
 	color: #99C;
@@ -47,7 +48,7 @@ body {
 	border-color: #99C;
 }
  .small {
-	font-size: 50px;
+	font-size: 3.125em;
 }
 .text_container {
 	padding: 10px;
