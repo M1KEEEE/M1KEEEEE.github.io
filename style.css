@@ -2,6 +2,8 @@ body {
 	margin: 0;
 	background-color: #000;
 	color: white;
+	border: solid;
+	border-color: #99C;
 }
 .head_container {
 	display: flex;
@@ -14,12 +16,15 @@ body {
 	align-items: center;
 	font-family: 'Kelly Slab', cursive;
 }
-.menu_container {
+.menu_container {в
 	padding: 10px;
+	border: solid;
+	border-color: #99C;
 }
 .menu_container a {
-	color: white;
+	color: #99C;
 	text-decoration: none;
+	font-size: 20px;
 }
 .menu_container ul {
     list-style-type: none;
@@ -52,6 +57,8 @@ body {
 .photo_container {
 	display: flex;
 	justify-content: space-around;
+	border: solid;
+	border-color: #99C;
 }
 .photo_container img {
 	margin: 0 5px
@@ -72,8 +79,9 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	border: solid;
+	border-color: #99C;
 }
 .footer_photo_container img {
     padding: 0 12px;
-
 }
