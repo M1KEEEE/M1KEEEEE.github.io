@@ -86,3 +86,11 @@ body {
 .footer_photo_container img {
     padding: 0 12px;
 }
+
+/* Фоторама */
+
+.fotorama__wrap {
+	margin: 20px auto;
+	border: solid;
+	border-color: #99C; 
+}
