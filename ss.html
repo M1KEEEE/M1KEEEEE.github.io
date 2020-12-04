@@ -4,9 +4,16 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <a name="visit"><h1><b>
+	<nav class="menu_container">
+		<ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="#">О нас</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+	</nav>
 	<div class="fotorama"
 		 data-arrows="false"
          data-click="false"
@@ -20,7 +27,8 @@
          data-transition="crossfade"
          data-transition-duration="1000"
          data-autoplay="2500"
-         data-allowfullscreen="native">
+         data-allowfullscreen="true">
+       
 
   		<img src="papka\1.jpg" data-caption="Текст">
   		<img src="papka\2.jpg" data-caption="Текст">
@@ -32,5 +40,14 @@
   		<img src="papka\8.jpg" data-caption="Текст">	
   		<img src="papka\9.jpg" data-caption="Текст">
   		<img src="papka\10.jpg" data-caption="Текст">
-  		</h1></b></a>	
+  		</h1></b></a>
+  		<div class="footer_container">
+		 ©  2020 - "Информационные технологии"
+		<div class="footer_photo_container">
+			<div class="footer_item"><a href=""><img src="papka/instagram.png" height="50px" alt="НЕ ЗАГРУЗИЛАСЬ"></a></div>
+		    <div class="footer_item"><a href=""><img src="papka/twiter.png" height="50px" alt="НЕ ЗАГРУЗИЛАСЬ"></a></div>
+		    <div class="footer_item"><a href=""><img src="papka/vk.png" height="50px" alt="НЕ ЗАГРУЗИЛАСЬ"></a></div>
+		    <div class="footer_item"><a href=""><img src="papka/youtube.png" height="50px" alt="НЕ ЗАГРУЗИЛАСЬ"></a></div>
+		    <div class="footer_item"><a href=""><img src="papka/what.png" height="50px" alt="НЕ ЗАГРУЗИЛАСЬ"></a></div>
+		</div>	
  </body>
