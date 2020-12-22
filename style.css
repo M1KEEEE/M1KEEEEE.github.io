@@ -17,7 +17,7 @@ body {
 	align-items: center;
 	font-family: 'Kelly Slab', cursive;
 }
-.menu_container {в
+.menu_container {
 	padding: 10px;
 	border: solid;
 	border-color: #99C;
@@ -35,7 +35,7 @@ body {
     padding: 10px;
 }
 .big {
-	font-size: 6.25em;
+	font-size: 6em;
 }
 .header_button_blue {
 	color: #99C;
@@ -48,7 +48,7 @@ body {
 	border-color: #99C;
 }
  .small {
-	font-size: 3.125em;
+	font-size: 3em;
 }
 
 .text_container {
@@ -116,4 +116,25 @@ body {
 	margin: 5px auto;
 	border: solid;
 	border-color: #99C; 
+}
+
+@media (max-width: 600px) {
+	.footer_container{
+		flex-direction: column;
+	}
+} 
+@media (max-width: 620px) {
+	.addres_container{
+		flex-direction: column;
+	}
+}
+@media (max-width: 420px) {
+	.small{
+		font-size: 2em;
+	}
+}
+@media (max-width: 280px) {
+	.menu_container{
+		flex-direction: column;
+	}
 }
