@@ -50,10 +50,30 @@ body {
  .small {
 	font-size: 3.125em;
 }
+
 .text_container {
 	padding: 10px;
 	color: #fff;
 	text-decoration: none;
+}
+.addres_container {
+	color: black;
+	background-color: #99C;
+	display: flex;
+	padding: 20px;
+}
+.address_item {
+	margin-left: 20px;
+}
+.address_item p{
+	margin-bottom: 50px;
+}
+.addres_container h3{
+	margin-top: 0;
+}
+#map {
+	height: 500px;
+	width: 80%;
 }
 .photo_container {
 	display: flex;
@@ -63,6 +83,9 @@ body {
 	margin: 0 5px;
 	border: solid;
 	border-color: #99C;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .footer_container {
 	display: flex;
