@@ -149,3 +149,8 @@ body {
 		height: 35vh;
 	}
 }
+@media (max-width: 560px) {
+	.header_button{
+		height: 2em;
+	}
+}
