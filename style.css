@@ -138,3 +138,8 @@ body {
 		flex-direction: column;
 	}
 }
+@media (max-width: 414px) {
+	.fotorama__wrap{
+		height: 35vh;
+	}
+}
