@@ -25,6 +25,18 @@ body {
 	border: solid;
 	border-color: #FF6600;
 }
+#menu:hover {
+	color: #f00;
+	font-size: 22px;
+}
+#sait:hover {
+	color: #f00;
+	font-size: 22px;
+}
+#kontakti:hover {
+	color: #f00;
+	font-size: 22px;
+}
 .menu_container a {
 	color: #FF6600;
 	text-decoration: none;
@@ -47,12 +59,24 @@ body {
 	border-radius: 5%;
 	border-color: #FF6600;
 }
-
+.header_button:hover {
+	font-size: 18px;
+	border: ridge;
+	color: #f00;
+}
 .text_container {
 	padding: 10px;
 	color: #fff;
 	text-decoration: none;
 	font-size: 1.5em
+}
+.text_container a {
+	text-decoration: none;
+	color: #FF6600;
+}
+.text_container a:hover {
+	text-decoration: underline;
+	color: red;
 }
 .addres_container {
 	display: flex;
@@ -71,7 +95,7 @@ body {
 .address_item {
 	margin-left: 20px;
 }
-.address_item p{
+.address_item p {
 	margin-bottom: 50px;
 }
 .addres_container h3{
