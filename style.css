@@ -132,6 +132,7 @@ body {
 	color: black;
 }
 .footer_photo_container {
+	height: 50px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -176,5 +177,15 @@ body {
 @media (max-width: 560px) {
 	.header_button{
 		height: 2em;
+	}
+}
+@media (max-width: 600px) {
+	.footer_photo_container{
+		height: 100px;
+	}
+}
+@media (max-width: 600px) {
+	.menu_container{
+		height: 50px;
 	}
 }
