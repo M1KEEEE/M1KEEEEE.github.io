@@ -132,12 +132,12 @@ body {
 	color: black;
 }
 .footer_photo_container {
-	height: 50px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 .footer_photo_container img {
+	height: 60px;
     padding: 0 12px;
 }
 
@@ -176,16 +176,11 @@ body {
 }
 @media (max-width: 560px) {
 	.header_button{
-		height: 2em;
+		height: 2.5em;
 	}
 }
-@media (max-width: 600px) {
-	.footer_photo_container{
-		height: 100px;
-	}
-}
-@media (max-width: 600px) {
-	.menu_container{
-		height: 50px;
+@media (max-width: 560px) {
+	.footer_photo_container img{
+		height: 70px
 	}
 }
