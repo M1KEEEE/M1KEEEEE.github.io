@@ -175,11 +175,6 @@ body {
 	}
 }
 @media (max-width: 560px) {
-	.header_button{
-		font-size: 2em;
-	}
-}
-@media (max-width: 560px) {
 	.footer_photo_container{
 		height: 80px
 	}
