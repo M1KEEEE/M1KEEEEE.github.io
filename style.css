@@ -179,3 +179,8 @@ body {
 		height: 80px
 	}
 }
+@media (max-width: 560px) {
+	.head_container{
+		height: 20vh;
+	}
+}
