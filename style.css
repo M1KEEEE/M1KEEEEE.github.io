@@ -50,6 +50,7 @@ body {
     padding: 10px;
 }
 .header_button {
+	font-size: 20px;
 	color: #FF6600;
 	text-decoration: none;
 	background-color: none;
@@ -60,7 +61,7 @@ body {
 	border-color: #FF6600;
 }
 .header_button:hover {
-	font-size: 18px;
+	font-size: 22px;
 	border: ridge;
 	color: #f00;
 }
