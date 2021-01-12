@@ -21,21 +21,22 @@ body {
 	height: 3em
 }
 .menu_container {
+	font-size: 22px;
 	padding: 10px;
 	border: solid;
 	border-color: #FF6600;
 }
 #menu:hover {
 	color: #f00;
-	font-size: 22px;
+	font-size: 30px;
 }
 #sait:hover {
 	color: #f00;
-	font-size: 22px;
+	font-size: 30px;
 }
-#kontakti:hover {
+#steam:hover {
 	color: #f00;
-	font-size: 22px;
+	font-size: 30px;
 }
 .menu_container a {
 	color: #FF6600;
