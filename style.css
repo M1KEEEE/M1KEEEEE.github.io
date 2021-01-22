@@ -77,35 +77,9 @@ body {
 	color: #FF6600;
 }
 .text_container a:hover {
+	font-size: 1.1em;
 	text-decoration: underline;
 	color: red;
-}
-.addres_container {
-	display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; 
-	color: black;
-	background-color: #FF6600;
-	display: flex;
-	padding: 20px;
-	font-size: 3em;
-}
-.addres_container a {
-	color: #fff;
-}
-.address_item {
-	margin-left: 20px;
-}
-.address_item p {
-	margin-bottom: 50px;
-}
-.addres_container h3{
-	margin-top: 0;
-}
-#map {
-	height: 500px;
-	width: 80%;
 }
 .photo_container {
 	display: flex;
@@ -124,7 +98,7 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #FF6600;
+	background: linear-gradient(-90deg,#000, #FF6600, #fb000d);
 	padding: 20px;
 	margin: 20px;
 	color: #000;
@@ -142,6 +116,7 @@ body {
 	height: 75px;
     padding: 0 12px;
 }
+
 
 /* Фоторама */
 
