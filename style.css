@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+	margin: 0;
+}
+
+header,
+main,
+footer {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+header {
+	background: #E5E5E5;
+}
+
+header h1 {
+	width: 1055px;
+	height: 150px;
+	left: 193px;
+	top: 200px;
+	font-family: Monserrat;
+	font-style: normal;
+	font-weight: 600px;
+	font-size: 75px;
+	line-height: 100%;
+	text-align: center;
+	letter-spacing: -0.02em;
+}
+
+header p {
+	width: 779px;
+	height: 60px;
+	left: 331px;
+	top: 370px;
+	font-family: Monserrat;
+	font-style: normal;
+	font-weight: 500px;
+	font-size: 25px;
+	line-height: 120%;
+	text-align: center;
+	letter-spacing: -0.02em;
+}
+
+.header_ios {
+	width: 270px;
+	height: 110px;
+	left: 435px;
+	top: 494px;
+}
+
+.header_android {
+	width: 270px;
+	height: 110px;
+	left: 735px;
+	top: 494px;
+}
+
+.header_ios,
+.header_android {
+	border-style: solid;
+	border-radius: 50px;
+	border-color: #000;
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+}
