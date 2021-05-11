@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+}
+
+.title {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: auto;
+	height: 200px;
+	background-color: #44bcff;
+}
+
+.logo {
+	height: 250px;
+	width: auto;
+}
+
+button {
+	border-radius: 50px;
+	text-align: center;
+	font-size: 60px;
+	color: #fff;
+}
+
+.searching {
+	margin-left: 100px;
+	height: 100px;
+	width: 800px;
+}
+
+.search {
+	margin-right: 2550px;
+	height: 100px;
+	width: 350px;
+	background-color: #88e610;
+}
+
+.my_ads {
+	background-color: transparent;
+}
+.submit_ad {
+	margin-right: 100px;
+	height: 100px;
+	width: 650px;
+	background-color: #ad45ff;
+}
+
