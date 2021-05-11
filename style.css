@@ -47,3 +47,47 @@ button {
 	background-color: #ad45ff;
 }
 
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.car {
+	height: 150px;
+	width: 400px;
+	border-width: 10px;
+	border-color: #4fbfff;
+	background-color: #fff;
+	color: #000;
+}
+
+.house {
+	height: 150px;
+	width: 400px;
+	border-width: 10px;
+	border-color: #88e610;
+	background-color: #fff;
+	color: #000;
+}
+
+.apartment {
+	height: 150px;
+	width: 400px;
+	border-width: 10px;
+	border-color: #dbadff;
+	background-color: #fff;
+	color: #000;
+}
+
+.business {
+	margin-right: 2500px;
+	height: 150px;
+	width: 400px;
+	border-width: 10px;
+	border-color: #ffc1bd;
+	background-color: #fff;
+	color: #000;
+}
+
