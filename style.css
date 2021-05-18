@@ -5,7 +5,8 @@ body {
 .title {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
+	padding: 0 50px;
 	align-items: center;
 	width: auto;
 	height: 200px;
@@ -13,8 +14,9 @@ body {
 }
 
 .logo {
-	height: 250px;
-	width: auto;
+	width: 262px;
+	height: 128px;
+	margin-right: 50px;
 }
 
 button {
@@ -24,14 +26,16 @@ button {
 	color: #fff;
 }
 
+main button {
+	margin: 0 20px 0 0;
+}
+
 .searching {
-	margin-left: 100px;
 	height: 100px;
 	width: 800px;
 }
 
 .search {
-	margin-right: 2550px;
 	height: 100px;
 	width: 350px;
 	background-color: #88e610;
@@ -41,7 +45,6 @@ button {
 	background-color: transparent;
 }
 .submit_ad {
-	margin-right: 100px;
 	height: 100px;
 	width: 650px;
 	background-color: #ad45ff;
@@ -50,8 +53,14 @@ button {
 main {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
+	justify-content: flex-start;
+}
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-self: flex-start;
+	margin: 50px;
 }
 
 .car {
@@ -82,7 +91,6 @@ main {
 }
 
 .business {
-	margin-right: 2500px;
 	height: 150px;
 	width: 400px;
 	border-width: 10px;
